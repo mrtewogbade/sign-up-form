@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .logo {
+    flex: 1;
+    background-image: url('./images/neom-Xm1wdkNUwrY-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .signup-form {
+    flex: 2;
+    margin: 0 2rem 0 2rem;
+    display: flex;flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    /* Add your signup form styles here */
+  }
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+  @media screen and (max-width: 767px) {
+    .container {
+      flex-direction: column;
+    }}
