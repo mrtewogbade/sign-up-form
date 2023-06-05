@@ -6,6 +6,7 @@ body{
 .container {
     display: flex;
     height: 100vh;
+
   }
 
   .logo {
@@ -30,6 +31,7 @@ form{
     flex-wrap: nowrap;
 
 }
+
   @media screen and (max-width: 767px) {
     .container {
       flex-direction: column;
