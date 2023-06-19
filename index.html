@@ -11,35 +11,84 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-          <h1>te<span>wo</span></h1>
-        </div>
-        <div class="signup-form">
-         
-         <div class="h-bgd">
-          <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+  <div class="img">
 
-            You know you want to do.</h3>
-         </div>
-          <div class="form-bgd">  
-            <form>
-            <h2>Sign Up</h2>
-            <label for="first_name">First Name:</label>
-            <input type="text" placeholder="first name">
-            <label for="last_name">Last Name:</label>
-            <input type="text" placeholder="last name">
-            <label for="email">Email:</label>
-            <input type="email" placeholder="Email">
-            <label for="number">Phone Number:</label>
-            <input type="text" placeholder="phone number">
-            <label for="password">Password:</label>
-            <input type="password" placeholder="Password">
+  </div>
 
-            <button type="submit">Sign Up</button>
-            </form>
+  <div class="form">
+    <div class="form-info">
+      <h3>
+        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started. <br>
+        You <i>know</i> what to do.
+      </h3>
+    </div>
+    <form action="">
+      <h2>Let's do this!</h2>
+      <div class="inputs">
+        <div class="first-name">
+          <input type="text" 
+          class="form-input" 
+          id="first-name" 
+          placeholder="First Name">
+          <label for="first-name" class="form-label">First Name:</label>
         </div>
+
+        <div class="last-name">
+          <input type="text" 
+          class="form-input" 
+          id="last-name" 
+          placeholder="Last Name">
+          <label for="first-name" class="form-label">Last Name:</label>
         </div>
       </div>
+
+      <div class="inputs">
+        <div class="email">
+          <input type="text" 
+          class="form-input" 
+          id="email" 
+          placeholder="Email">
+          <label for="email" class="form-label">Email:</label>
+        </div>
+
+        <div class="phone">
+          <input type="text" 
+          class="form-input" 
+          id="phone" 
+          placeholder="Phone">
+          <label for="phone" class="form-label">Phone:</label>
+        </div>
+      </div>
+
+      <div class="inputs">
+        <div class="password">
+          <input type="text" 
+          class="form-input" 
+          id="password" 
+          placeholder="Password">
+          <label for="password" class="form-label">Password:</label>
+        </div>
+
+        <div class="confirm-password">
+          <input type="text" 
+          class="form-input" 
+          id="confirm-password" 
+          placeholder="Confirm Password">
+          <label for="confirm-password" class="form-label">Confirm Password:</label>
+        </div>
+      </div>
+
+      <div class="form-end">
+        <div class="errorMessage">Error Placeholder</div>
+        <button class="btn" type="submit">Create Account</button>
+        <h3>Already have an account? <a href="" class="login">Log in</a></h3>
+      </div>
+    </form>
+  </div>
+
+
+
+
+
 </body>
 </html>

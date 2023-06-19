@@ -1,38 +1,93 @@
 body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+  font-family: Poppins 'Courier New', Courier, monospace;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
 }
 
-.container {
-    display: flex;
-    height: 100vh;
+.img{
+  display: flex;
+  width: 40%;
+  height: 96%;
+  margin: 1% 1% 1% 1%;
+  background: url(./images/odinbdg.jpg) no-repeat center;
+  background-size: cover;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.form{
+ 
+  width: 60%;
+  margin: 0;
+  padding: 0;
+  margin-top: 5%;
+}
 
-  }
+.form > * {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
-  .logo {
-    flex: 1;
-    background-image: url('./images/neom-Xm1wdkNUwrY-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
-  }
 
-  .signup-form {
-    flex: 2;
-    margin: 0 2rem 0 2rem;
-    display: flex;flex-direction: column;
+.form-label{
+  font-weight: 900;
+  font-size: 20px;
+  display: block;
+  transition: all 0.5s;
+  transform: translateY(-3.4rem);
+}
 
-    align-items: center;
-    justify-content: center;
-    /* Add your signup form styles here */
-  }
+.form-input{
+  border: 2px solid gray;
+  color: #333;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.2rem;
+  border-radius: 0.2rem;
+  width: 100%;
+  display: block;
+  transition: all 0.5s;
+  margin-top: 5%;
+  padding-right: 10%;
+
+}
+
+.form-input:focus{
+  transition: 0.2s;
+  outline: none;
+  border: 2px solid blue;
+}
+
+.form-input:placeholder-shown + .form-label{
+  opacity: 0;
+  visibility: hidden;
+}
+
 form{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-
+  padding-top: 3%;
+  width: 80%;
+  margin-left: 0%;
+  background-color: rgba(0, 0, 0, 0.034);
+}
+.inputs{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
 }
 
-  @media screen and (max-width: 767px) {
-    .container {
-      flex-direction: column;
-    }}
+.inputs> :last-child{
+  padding-left: 10%;
+}
+
+/* .inputs> :nth-child(2){
+  padding-left: 10%;
+}
+
+
+.inputs> :nth-child(3){
+  padding-left: 10%;
+} */
