@@ -12,6 +12,9 @@
 </head>
 <body>
   <div class="img">
+    <div class="img-logo">
+      <img src="./images/logo.png" class="odin-logo" alt="Odin Logo">
+    </div>
 
   </div>
 
@@ -26,7 +29,9 @@
       <h2>Let's do this!</h2>
       <div class="inputs">
         <div class="first-name">
-          <input type="text" 
+          <input 
+          required
+          type="text" 
           class="form-input" 
           id="first-name" 
           placeholder="First Name">
@@ -34,7 +39,9 @@
         </div>
 
         <div class="last-name">
-          <input type="text" 
+          <input 
+          required
+          type="text" 
           class="form-input" 
           id="last-name" 
           placeholder="Last Name">
@@ -44,7 +51,8 @@
 
       <div class="inputs">
         <div class="email">
-          <input type="text" 
+          <input 
+          required 
           class="form-input" 
           id="email" 
           placeholder="Email">
@@ -52,7 +60,9 @@
         </div>
 
         <div class="phone">
-          <input type="text" 
+          <input 
+          required
+          type="text" 
           class="form-input" 
           id="phone" 
           placeholder="Phone">
@@ -62,7 +72,9 @@
 
       <div class="inputs">
         <div class="password">
-          <input type="text" 
+          <input
+          required 
+          type="text" 
           class="form-input" 
           id="password" 
           placeholder="Password">
@@ -70,7 +82,9 @@
         </div>
 
         <div class="confirm-password">
-          <input type="text" 
+          <input
+          required
+          type="text" 
           class="form-input" 
           id="confirm-password" 
           placeholder="Confirm Password">
@@ -79,16 +93,13 @@
       </div>
 
       <div class="form-end">
-        <div class="errorMessage">Error Placeholder</div>
+        <div class="errorMessage"></div>
         <button class="btn" type="submit">Create Account</button>
-        <h3>Already have an account? <a href="" class="login">Log in</a></h3>
+        <h3>Already have an account? <a href="#" class="login">Log in</a></h3>
       </div>
     </form>
   </div>
 
-
-
-
-
+  <script src="./main.js"></script>
 </body>
 </html>

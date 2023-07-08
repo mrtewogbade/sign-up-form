@@ -82,12 +82,44 @@ form{
 .inputs> :last-child{
   padding-left: 10%;
 }
-
-/* .inputs> :nth-child(2){
-  padding-left: 10%;
+.form-end{
+  margin-top: 20px;
+  position: absolute;
+  font-size: 10px;
 }
 
+.btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 30px;
+  border-radius: 6px;
+  border: none;
+  background: #009900;
+}
 
-.inputs> :nth-child(3){
-  padding-left: 10%;
-} */
+.btn:hover{
+  color: bisque;
+  background-color: #081E15;
+}
+
+.login{
+  color: #009900;
+}
+
+.errorMessage{
+  color: red;
+}
+
+.img-logo{
+  width: 10%;
+  height: fit-content;
+  position: fixed;
+  margin-left: 30%;
+  background-color: rgba(0, 0, 0, 0.178);
+}
+
+.odin-logo{
+  width: 100%;
+
+}
